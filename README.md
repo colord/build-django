@@ -4,10 +4,10 @@ Build a Django project with one command.
 
 # Usage
 
-'''python
+```python
 python build.py
-'''
+```
 
-'''python
+```python
 python build.py "$PROJECT_NAME"
-'''
+```
