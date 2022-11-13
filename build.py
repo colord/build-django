@@ -98,13 +98,13 @@ def show_instructions():
 
 
 def main():
-    # create_project_dir()
-    # # Enter into project dir and create rest of the build
-    # chdir(PROJECT_DIR)
-    # create_django_core()
-    # create_config_files()
-    # create_template_static_dirs()
-    # create_django_app()
+    create_project_dir()
+    # Enter into project dir and create rest of the build
+    chdir(PROJECT_DIR)
+    create_django_core()
+    create_config_files()
+    create_template_static_dirs()
+    create_django_app()
     show_instructions()
 
 if __name__ == "__main__":
